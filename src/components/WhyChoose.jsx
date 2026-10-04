@@ -18,6 +18,14 @@ const reasons = [
 export default function WhyChoose() {
   return (
     <section className="section why-choose">
+      <div className="why-choose__bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=2000&auto=format&fit=crop"
+          alt=""
+          loading="lazy"
+        />
+        <div className="why-choose__overlay"></div>
+      </div>
       <div className="container why-choose__grid">
         <div>
           <span className="section-label">Why Horizon</span>
@@ -27,10 +35,8 @@ export default function WhyChoose() {
           {reasons.map((reason, i) => (
             <div key={reason.title} className="why-choose__reason">
               <span className="why-choose__number">0{i + 1}</span>
-              <div>
-                <h3>{reason.title}</h3>
-                <p>{reason.text}</p>
-              </div>
+              <h3>{reason.title}</h3>
+              <p>{reason.text}</p>
             </div>
           ))}
         </div>

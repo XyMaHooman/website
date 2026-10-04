@@ -17,7 +17,7 @@ export default function CTA() {
             <p className="cta__text">Let our experts guide you to the right home or investment.</p>
           </div>
         </div>
-        <a href="#contact" className="btn btn-primary">
+        <a href="#contact" className="btn btn-sand">
           Get in Touch <span aria-hidden="true">→</span>
         </a>
       </div>

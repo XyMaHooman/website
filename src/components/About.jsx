@@ -11,7 +11,7 @@ export default function About() {
             At Horizon Properties, we connect people with extraordinary homes and smart investments.
             Integrity, transparency, and client satisfaction are at the heart of everything we do.
           </p>
-          <a href="#services" className="btn btn-primary">
+          <a href="#services" className="btn btn-outline">
             Learn More <span aria-hidden="true">→</span>
           </a>
         </div>
